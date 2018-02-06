@@ -202,8 +202,8 @@ function confirmations(transactions, limitHeight) {
 }
 
 module.exports = {
-	blockchainReady: blockchainReady,
-	newRound: newRound,
-	blocks: blocks,
-	confirmations: confirmations,
+	blockchainReady,
+	newRound,
+	blocks,
+	confirmations,
 };
